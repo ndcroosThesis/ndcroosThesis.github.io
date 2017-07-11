@@ -39,6 +39,6 @@ To help the user with organizing the tests, the user can simulate the traversal 
 
 ## Limitations
 
-* The test plan must be a tree, i.e. an directed acyclic graph. So loops from nodes to themselves, edges between two branches etc. are not allowed.
+* The test plan must be a tree, i.e. a directed acyclic graph. So loops from nodes to themselves, edges between two branches etc. are not allowed.
 
 * It is possible that a service reacts on the output of some service that is not specified by the test tree. Only the services specified in the graph are taken into account in the test.
