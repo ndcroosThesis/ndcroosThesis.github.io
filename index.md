@@ -25,7 +25,7 @@ If the edge is not connected to the root, the following fields can be specified:
 
 ## Executing a test plan
 
-After a test plan is specified, the user should click on the 'Send'-button. After some moments, the edges are colored green or red. If the edge is green, this means that all executed checks for this edge were succesfull. If the edge is red, this means that a failure happened. Clicking on an edge will show a pop-up with feedback about the results, e.g. what element in the test failed. The user can close the pop-up by clicking in the space around the pop-up.
+After a test plan is specified, the user should click on the 'Send'-button. After some moments, the edges are colored green or red. If the edge is green, this means that all executed checks for this edge were succesfull. If the edge is red, this means that a failure happened. Doubleclicking an edge will show a pop-up with feedback about the results, e.g. what element in the test failed. The user can close the pop-up by clicking in the space around the pop-up.
 
 Tests can be rerun and associated field to edges can be modified.
 It is possible to save a test plan and the feedback in JSON-files.
