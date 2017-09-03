@@ -17,6 +17,6 @@
         <example:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</example:hasValue>
     </owl:NamedIndividual>
     
-    <owl:DatatypeProperty rdf:ID="hasValue"/>
+    <owl:DatatypeProperty rdf:ID="https://ndcroosthesis.github.io/example.owl#hasValue"/>
 
 </rdf:RDF>
