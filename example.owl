@@ -1,5 +1,7 @@
 <rdf:RDF
      xml:base="https://ndcroosthesis.github.io/example.owl"
+     xmlns="https://ndcroosthesis.github.io/example.owl/#"
+     xmlns:example="https://ndcroosthesis.github.io/example.owl/#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -14,9 +16,9 @@
     
     <owl:NamedIndividual rdf:about="https://ndcroosthesis.github.io/example.owl#observation1">
         <rdf:type rdf:resource="https://ndcroosthesis.github.io/example.owl#sensorObservation"/>
-        <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</hasValue>
+        <example:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</example:hasValue>
     </owl:NamedIndividual>
     
-    <owl:DatatypeProperty rdf:about="https://ndcroosthesis.github.io/example.owl#hasValue"/>
+    <owl:DatatypeProperty rdf:about="#hasValue"/>
 
 </rdf:RDF>
