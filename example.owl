@@ -19,6 +19,9 @@
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5</hasValue>
     </owl:NamedIndividual>
     
-    <owl:DatatypeProperty rdf:about="#hasValue"/>
+    <owl:DatatypeProperty rdf:about="#hasValue">
+        <rdfs:domain rdf:resource="https://ndcroosthesis.github.io/example.owl#sensorObservation" />
+        <rdfs:range  rdf:resource="http://www.w3.org/2001/XMLSchema#float" />
+    </owl:DatatypeProperty>
 
 </rdf:RDF>
