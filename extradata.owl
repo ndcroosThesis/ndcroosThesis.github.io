@@ -11,13 +11,13 @@
 
   <owl:NamedIndividual rdf:about="https://ndcroosthesis.github.io/example.owl#observation3">
           <rdf:type rdf:resource="https://ndcroosthesis.github.io/example.owl#sensorObservation"/>
-          <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</hasValue>
+          <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15</hasValue>
   </owl:NamedIndividual>
 
 
   <owl:NamedIndividual rdf:about="https://ndcroosthesis.github.io/example.owl#observation4">
           <rdf:type rdf:resource="https://ndcroosthesis.github.io/example.owl#sensorObservation"/>
-          <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</hasValue>
+          <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20</hasValue>
   </owl:NamedIndividual>
   
 </rdf:RDF>
